@@ -4,7 +4,7 @@ using namespace SVNPoject;
 
 int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int)
 {
-	Application::EnableVisualStyle();
+	Application::EnableVisualStyles();
 	Application::SetCompatibleTextRenderingDefault(false);
 	Application::Run(gcnew MyForm);
 	return 0;
